@@ -1,0 +1,309 @@
+$color_1: blue;
+$color_2: #fff;
+$color_3: #000;
+$font-family_1: "Noto Sans JP", sans-serif;
+$background-color_1: #fff;
+$background-color_2: rgba(202, 202, 202);
+$background-color_3: blue;
+$background-color_4: rgb(0, 0, 104);
+$background-color_5: rgb(43, 38, 38);
+$background-color_6: white;
+
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap";
+/* HEADER */
+/* MAIN */
+/* FOOTER */
+/* BLOG */
+/* CONTACTO */
+/* PLATAFORMA */
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	padding-left: 10%;
+	padding-right: 10%;
+	background: blue;
+	text-align: center;
+	font-family: $font-family_1;
+	font-size: 700;
+}
+.navbar-toggler {
+	border: none !important;
+	&:focus {
+		box-shadow: none !important;
+	}
+}
+.botonPlataforma {
+	padding: 9px 25px;
+	background-color: $background-color_1;
+	color: $color_1;
+	border: none;
+	border-radius: 50px;
+	font-family: $font-family_1;
+	font-weight: 700;
+	text-decoration: none;
+	&:hover {
+		background-color: $background-color_2;
+		transition: all ease 0.3s;
+	}
+}
+.bienvenida {
+	background-image: url("../img/personas-con-discapacidad.png");
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: $color_2;
+	padding: 10%;
+	text-align: center;
+	font-family: $font-family_1;
+	h1 {
+		font-size: 300%;
+		font-weight: 700;
+	}
+}
+.botonBienvenida {
+	padding: 9px 25px;
+	background-color: $background-color_1;
+	color: $color_1;
+	border: none;
+	border-radius: 50px;
+	font-family: $font-family_1;
+	font-weight: 700;
+	text-decoration: none;
+	&:hover {
+		background-color: $background-color_2;
+		transition: all ease 0.3s;
+	}
+}
+.sumate {
+	display: flex;
+	padding-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: $font-family_1;
+	h2 {
+		color: $color_1;
+		font-weight: 700;
+	}
+}
+.conoceMas {
+	padding: 9px 25px;
+	background-color: $background-color_3;
+	color: $color_2;
+	border: none;
+	border-radius: 50px;
+	font-family: $font-family_1;
+	font-weight: 700;
+	text-decoration: none;
+	&:hover {
+		background-color: $background-color_4;
+		transition: all ease 0.3s;
+	}
+}
+.blog {
+	margin-top: 2.5%;
+	padding-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	background-color: $background-color_3;
+}
+.tituloBlog {
+	color: $color_2;
+	font-family: $font-family_1;
+	padding-bottom: 2%;
+	font-size: 250%;
+}
+.descargaApp {
+	display: flex;
+	margin-top: 2.5%;
+	padding-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	background-color: $background-color_1;
+	font-family: $font-family_1;
+}
+.imagenApp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	img {
+		width: 36%;
+	}
+}
+.textoApp {
+	display: grid;
+	place-items: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	h2 {
+		font-weight: 700;
+	}
+}
+.botonesDescarga {
+	display: block;
+	align-items: center;
+}
+footer {
+	background-color: $background-color_5;
+	text-decoration: none;
+	color: $color_2;
+	padding-top: 2.5%;
+	padding-bottom: 0.5%;
+	font-family: $font-family_1;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	padding: 2, 5% 2, 5% 20% 20%;
+}
+.left-links {
+	text-align: left;
+	flex-basis: 25%;
+	ul {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style-type: none;
+		display: block;
+	}
+	a {
+		text-decoration: none;
+		color: $color_2;
+	}
+}
+.logo-center {
+	text-align: center;
+	flex-basis: 50%;
+}
+.right-links {
+	text-align: right;
+	flex-basis: 25%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	display: block;
+	a {
+		text-decoration: none;
+		color: $color_2;
+	}
+}
+.copyright {
+	text-align: center;
+	padding-top: 0.5%;
+}
+.portadaBlog {
+	background-image: url(../img/la-arquitectura-1.jpg);
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 0.5%;
+	padding-top: 18%;
+	h1 {
+		display: block;
+		background-color: $background-color_3;
+		color: $color_2;
+		padding: 0.5%;
+	}
+}
+.ultimasNovedades {
+	margin-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	background-color: $background-color_1;
+	h2 {
+		color: $color_1;
+		font-family: $font-family_1;
+		padding-bottom: 2%;
+		font-size: 250%;
+	}
+}
+.informacion {
+	margin-top: 2.5%;
+	padding-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	background-color: $background-color_3;
+}
+.contacto {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+.textoContacto {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.contactanos {
+	padding-top: 2.5%;
+	a {
+		text-decoration: none;
+		color: $color_3;
+	}
+}
+.formularioContacto {
+	border-radius: 2%;
+	padding: 2%;
+	box-shadow: 7px 13px 37px #000;
+	font-family: $font-family_1;
+	button {
+		align-items: center;
+	}
+}
+.botonContacto {
+	padding: 9px 25px;
+	background-color: $background-color_3;
+	color: $color_2;
+	border: none;
+	border-radius: 50px;
+	font-family: $font-family_1;
+	font-weight: 700;
+	text-decoration: none;
+	margin-top: 2%;
+	&:hover {
+		background-color: $background-color_4;
+		transition: all ease 0.3s;
+	}
+}
+.mainPlataforma {
+	background-image: url(../img/personas-con-discapacidad.png);
+	color: $color_2;
+	display: flex;
+	padding-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	font-family: $font-family_1;
+}
+@media (max-width: 767px) {
+	.left-links {
+		display: none;
+	}
+	.right-links {
+		display: none;
+	}
+	header {
+		padding: 0%;
+	}
+	.botonPlataforma {
+		background-color: $background-color_6;
+		color: $color_1;
+		border-radius: 0;
+		padding-left: 50%;
+		margin: 0% !important;
+	}
+}
+@media (max-width: 449px) {
+	header {
+		padding: 0%;
+	}
+}
