@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+	.left-links {
+		display: none;
+	}
+	.right-links {
+		display: none;
+	}
+	header {
+		padding: 0%;
+	}
+	.botonPlataforma {
+		background-color: $background-color_6;
+		color: $color_1;
+		border-radius: 0;
+		padding-left: 50%;
+		margin: 0% !important;
+	}
+	.bienvenida h1{
+		font-size: 200%;
+	}
+}
+@media (max-width: 359px) {
+	.navbar-brand{
+		margin-right: 0 !important;
+	}
+}

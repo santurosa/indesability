@@ -10,12 +10,7 @@ $background-color_5: rgb(43, 38, 38);
 $background-color_6: white;
 
 @import "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap";
-/* HEADER */
-/* MAIN */
-/* FOOTER */
-/* BLOG */
-/* CONTACTO */
-/* PLATAFORMA */
+@import "medias", "generales";
 * {
 	margin: 0;
 	padding: 0;
@@ -79,10 +74,11 @@ header {
 	}
 }
 .sumate {
-	display: flex;
+
 	padding-top: 2.5%;
 	padding-left: 10%;
 	padding-right: 10%;
+	margin: 0 !important;
 	font-family: $font-family_1;
 	h2 {
 		color: $color_1;
@@ -117,6 +113,9 @@ header {
 	padding-bottom: 2%;
 	font-size: 250%;
 }
+.card{
+	height: 100% !important;
+}
 .descargaApp {
 	display: flex;
 	margin-top: 2.5%;
@@ -124,6 +123,7 @@ header {
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 2.5%;
+	margin-right: 0 !important;
 	background-color: $background-color_1;
 	font-family: $font-family_1;
 }
@@ -282,28 +282,6 @@ footer {
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 2.5%;
+	margin: 0 !important;
 	font-family: $font-family_1;
-}
-@media (max-width: 767px) {
-	.left-links {
-		display: none;
-	}
-	.right-links {
-		display: none;
-	}
-	header {
-		padding: 0%;
-	}
-	.botonPlataforma {
-		background-color: $background-color_6;
-		color: $color_1;
-		border-radius: 0;
-		padding-left: 50%;
-		margin: 0% !important;
-	}
-}
-@media (max-width: 449px) {
-	header {
-		padding: 0%;
-	}
 }

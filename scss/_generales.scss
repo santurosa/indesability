@@ -1,0 +1,29 @@
+/* HEADER */
+header {
+	padding-left: 10%;
+	padding-right: 10%;
+	background: blue;
+	text-align: center;
+	font-family: $font-family_1;
+	font-size: 700;
+}
+.navbar-toggler {
+	border: none !important;
+	&:focus {
+		box-shadow: none !important;
+	}
+}
+.botonPlataforma {
+	padding: 9px 25px;
+	background-color: $background-color_1;
+	color: $color_1;
+	border: none;
+	border-radius: 50px;
+	font-family: $font-family_1;
+	font-weight: 700;
+	text-decoration: none;
+	&:hover {
+		background-color: $background-color_2;
+		transition: all ease 0.3s;
+	}
+}
