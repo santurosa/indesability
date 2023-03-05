@@ -1,0 +1,156 @@
+/* Es Hora de la #AccesibilidadPlena */
+.bienvenida {
+	background-image: url("../img/personas-con-discapacidad.png");
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: $color_secundario;
+	padding: 10%;
+	text-align: center;
+	font-family: $fuente;
+
+	h1 {
+		font-size: 300%;
+		font-weight: 700;
+	}
+}
+
+/* Mi Sitio en Indesability / Carga Masiva */
+.sumate {
+
+	padding-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: 0 !important;
+	font-family: $fuente;
+
+	h2 {
+		color: $color_primario;
+		font-weight: 700;
+	}
+}
+
+/* Blog */
+.tituloBlog {
+	color: $color_secundario;
+	font-family: $fuente;
+	padding-bottom: 2%;
+	font-size: 250%;
+}
+
+.card-text {
+	padding-bottom: 2%;
+}
+
+/* Descargá la App */
+.descargaApp {
+	display: flex;
+	margin-top: 2.5%;
+	padding-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	margin-right: 0 !important;
+	background-color: $color_secundario;
+	font-family: $fuente;
+}
+
+.textoApp {
+	display: grid;
+	place-items: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+	h2 {
+		font-weight: 700;
+	}
+}
+
+/* ques_es_indesability.html */
+.tituloPrincipal {
+	margin-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: $color_primario;
+
+	h1 {
+		font-family: $fuente;
+		font-weight: 700;
+		font-size: 250%;
+	}
+}
+
+.tituloQueEs {
+	color: $color_primario;
+	font-family: $fuente;
+	font-weight: 500;
+	font-size: 250%;
+}
+.tituloQueEsBlanco {
+	color: $color_secundario;
+	font-family: $fuente;
+	font-weight: 500;
+	font-size: 250%;
+}
+
+.textoQueEs {
+	text-align: center;
+	display: grid;
+	place-items: center;
+	text-align: center;
+	font-family: $fuente;
+}
+
+.textoQueEsAzul {
+	display: grid;
+	place-items: center;
+	text-align: center;
+	color: $color_secundario;
+	font-family: $fuente;
+}
+
+/* blog.html */
+.portadaBlog {
+	background-image: url(../img/la-arquitectura-1.jpg);
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 0.5%;
+	padding-top: 18%;
+
+	h1 {
+		display: block;
+		background-color: $color_primario;
+		color: $color_secundario;
+		padding: 0.5%;
+	}
+}
+
+.ultimasNovedades {
+	margin-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	background-color: $color_secundario;
+
+	h2 {
+		color: $color_primario;
+		font-family: $fuente;
+		padding-bottom: 2%;
+		font-size: 250%;
+	}
+}
+
+/* plataforma.html */
+.probaPlataforma {
+	background-image: url(../img/personas-con-discapacidad.png);
+	color: $color_secundario;
+	display: flex;
+	padding-top: 2.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2.5%;
+	margin: 0 !important;
+	font-family: $fuente;
+}

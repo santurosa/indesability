@@ -1,30 +1,5 @@
+@charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap";
-@media (max-width: 767px) {
-  .left-links {
-    display: none;
-  }
-  .right-links {
-    display: none;
-  }
-  header {
-    padding: 0%;
-  }
-  .botonPlataforma {
-    background-color: white;
-    color: blue;
-    border-radius: 0;
-    padding-left: 50%;
-    margin: 0% !important;
-  }
-  .bienvenida h1 {
-    font-size: 200%;
-  }
-}
-@media (max-width: 359px) {
-  .navbar-brand {
-    margin-right: 0 !important;
-  }
-}
 /* HEADER */
 header {
   padding-left: 10%;
@@ -42,173 +17,7 @@ header {
   box-shadow: none !important;
 }
 
-.botonPlataforma {
-  padding: 9px 25px;
-  background-color: #fff;
-  color: blue;
-  border: none;
-  border-radius: 5000000000px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-}
-.botonPlataforma:hover {
-  background-color: rgb(202, 202, 202);
-  transition: all ease 0.3s;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  padding-left: 10%;
-  padding-right: 10%;
-  background: blue;
-  text-align: center;
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 700;
-}
-
-.navbar-toggler {
-  border: none !important;
-}
-.navbar-toggler:focus {
-  box-shadow: none !important;
-}
-
-.botonPlataforma {
-  padding: 9px 25px;
-  background-color: #fff;
-  color: blue;
-  border: none;
-  border-radius: 50px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-}
-.botonPlataforma:hover {
-  background-color: rgb(202, 202, 202);
-  transition: all ease 0.3s;
-}
-
-.bienvenida {
-  background-image: url("../img/personas-con-discapacidad.png");
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  padding: 10%;
-  text-align: center;
-  font-family: "Noto Sans JP", sans-serif;
-}
-.bienvenida h1 {
-  font-size: 300%;
-  font-weight: 700;
-}
-
-.botonBienvenida {
-  padding: 9px 25px;
-  background-color: #fff;
-  color: blue;
-  border: none;
-  border-radius: 50px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-}
-.botonBienvenida:hover {
-  background-color: rgb(202, 202, 202);
-  transition: all ease 0.3s;
-}
-
-.sumate {
-  padding-top: 2.5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin: 0 !important;
-  font-family: "Noto Sans JP", sans-serif;
-}
-.sumate h2 {
-  color: blue;
-  font-weight: 700;
-}
-
-.conoceMas {
-  padding: 9px 25px;
-  background-color: blue;
-  color: #fff;
-  border: none;
-  border-radius: 50px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-}
-.conoceMas:hover {
-  background-color: rgb(0, 0, 104);
-  transition: all ease 0.3s;
-}
-
-.blog {
-  margin-top: 2.5%;
-  padding-top: 2.5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 2.5%;
-  background-color: blue;
-}
-
-.tituloBlog {
-  color: #fff;
-  font-family: "Noto Sans JP", sans-serif;
-  padding-bottom: 2%;
-  font-size: 250%;
-}
-
-.card {
-  height: 100% !important;
-}
-
-.descargaApp {
-  display: flex;
-  margin-top: 2.5%;
-  padding-top: 2.5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 2.5%;
-  margin-right: 0 !important;
-  background-color: #fff;
-  font-family: "Noto Sans JP", sans-serif;
-}
-
-.imagenApp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-.imagenApp img {
-  width: 36%;
-}
-
-.textoApp {
-  display: grid;
-  place-items: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-.textoApp h2 {
-  font-weight: 700;
-}
-
-.botonesDescarga {
-  display: block;
-  align-items: center;
-}
-
+/* FOOTER */
 footer {
   background-color: rgb(43, 38, 38);
   text-decoration: none;
@@ -264,6 +73,285 @@ footer {
   padding-top: 0.5%;
 }
 
+/* index.html */
+.blog {
+  margin-top: 2.5%;
+  padding-top: 2.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2.5%;
+  background-color: blue;
+}
+
+.card {
+  height: 100% !important;
+}
+
+.imagenApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.imagenApp img {
+  width: 36%;
+}
+
+/* que_es_indesability.html */
+.queEs {
+  padding-top: 2.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2.55%;
+  margin-right: 0 !important;
+  background-color: #fff;
+}
+
+.queEsAzul {
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2.5%;
+  margin-right: 0 !important;
+  background-color: blue;
+}
+
+.imgQueEs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* blog.html */
+.informacion {
+  margin-top: 2.5%;
+  padding-top: 2.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2.5%;
+  background-color: blue;
+}
+
+/* contacto.html */
+.contacto {
+  background-image: url("../img/personas-con-discapacidad.png");
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  margin: 0 !important;
+}
+
+.textoContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.contactanos {
+  background-color: #fff;
+  border-radius: 20px;
+  padding-top: 2%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  font-family: "Noto Sans JP", sans-serif;
+}
+.contactanos h2 {
+  color: blue;
+  display: block;
+  text-align: center;
+}
+.contactanos .redesSociales {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactanos a {
+  text-decoration: none;
+}
+
+/* BOTÓN PLATAFORMA*/
+.botonPlataforma {
+  padding: 9px 25px;
+  background-color: #fff;
+  color: blue;
+  border: none;
+  border-radius: 50px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+.botonPlataforma:hover {
+  background-color: rgb(0, 0, 104);
+  transition: all ease 0.3s;
+}
+
+/* BOTÓN BLANCO */
+.botonBlanco {
+  padding: 9px 25px;
+  background-color: #fff;
+  color: blue;
+  border: none;
+  border-radius: 50px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+.botonBlanco:hover {
+  background-color: rgb(0, 0, 104);
+  transition: all ease 0.3s;
+}
+
+/* BOTÓN AZUL */
+.botonAzul {
+  padding: 9px 25px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+.botonAzul:hover {
+  background-color: rgb(202, 202, 202);
+  transition: all ease 0.3s;
+}
+
+/* REDES SOCIALES */
+.instagram {
+  color: #fd5949;
+  padding-right: 10%;
+}
+
+.facebook {
+  color: rgb(66, 103, 178);
+}
+
+.twitter {
+  color: rgb(29, 161, 242);
+  padding-left: 10%;
+}
+
+.mail {
+  color: #000;
+  padding-left: 10%;
+}
+
+/* Es Hora de la #AccesibilidadPlena */
+.bienvenida {
+  background-image: url("../img/personas-con-discapacidad.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10%;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.bienvenida h1 {
+  font-size: 300%;
+  font-weight: 700;
+}
+
+/* Mi Sitio en Indesability / Carga Masiva */
+.sumate {
+  padding-top: 2.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0 !important;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.sumate h2 {
+  color: blue;
+  font-weight: 700;
+}
+
+/* Blog */
+.tituloBlog {
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  padding-bottom: 2%;
+  font-size: 250%;
+}
+
+.card-text {
+  padding-bottom: 2%;
+}
+
+/* Descargá la App */
+.descargaApp {
+  display: flex;
+  margin-top: 2.5%;
+  padding-top: 2.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2.5%;
+  margin-right: 0 !important;
+  background-color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.textoApp {
+  display: grid;
+  place-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.textoApp h2 {
+  font-weight: 700;
+}
+
+/* ques_es_indesability.html */
+.tituloPrincipal {
+  margin-top: 2.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: blue;
+}
+.tituloPrincipal h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 250%;
+}
+
+.tituloQueEs {
+  color: blue;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 250%;
+}
+
+.tituloQueEsBlanco {
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 250%;
+}
+
+.textoQueEs {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.textoQueEsAzul {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* blog.html */
 .portadaBlog {
   background-image: url(../img/la-arquitectura-1.jpg);
   padding-left: 10%;
@@ -292,63 +380,8 @@ footer {
   font-size: 250%;
 }
 
-.informacion {
-  margin-top: 2.5%;
-  padding-top: 2.5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 2.5%;
-  background-color: blue;
-}
-
-.contacto {
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-}
-
-.textoContacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.contactanos {
-  padding-top: 2.5%;
-}
-.contactanos a {
-  text-decoration: none;
-  color: #000;
-}
-
-.formularioContacto {
-  border-radius: 2%;
-  padding: 2%;
-  box-shadow: 7px 13px 37px #000;
-  font-family: "Noto Sans JP", sans-serif;
-}
-.formularioContacto button {
-  align-items: center;
-}
-
-.botonContacto {
-  padding: 9px 25px;
-  background-color: blue;
-  color: #fff;
-  border: none;
-  border-radius: 50px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  margin-top: 2%;
-}
-.botonContacto:hover {
-  background-color: rgb(0, 0, 104);
-  transition: all ease 0.3s;
-}
-
-.mainPlataforma {
+/* plataforma.html */
+.probaPlataforma {
   background-image: url(../img/personas-con-discapacidad.png);
   color: #fff;
   display: flex;
@@ -358,6 +391,86 @@ footer {
   padding-bottom: 2.5%;
   margin: 0 !important;
   font-family: "Noto Sans JP", sans-serif;
+}
+
+.formularioContacto {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  font-family: "Noto Sans JP", sans-serif;
+}
+.formularioContacto .enviarMensaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .left-links {
+    display: none;
+  }
+  .right-links {
+    display: none;
+  }
+  header {
+    padding: 0%;
+  }
+  .navbar-brand {
+    margin-left: 0% !important;
+  }
+  .botonPlataforma {
+    border-radius: 0;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 2%;
+  }
+  .bienvenida h1 {
+    font-size: 200%;
+  }
+  .miSitio {
+    padding-top: 5%;
+    margin-bottom: 10%;
+  }
+  .cargaMasiva {
+    padding-bottom: 5%;
+  }
+  .blog {
+    padding-bottom: 10%;
+  }
+  .descargaApp {
+    padding-top: 10%;
+  }
+  .imagenApp {
+    padding-bottom: 5%;
+  }
+  .textoApp {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .textoContacto {
+    padding-bottom: 10%;
+  }
+  .imagenApp {
+    padding-top: 10%;
+  }
+  .textoLamentable {
+    padding-bottom: 10%;
+  }
+  .tituloPrincipal {
+    padding-top: 2.5%;
+  }
+  .imgQueEs {
+    display: none;
+  }
+  .botonesDescarga {
+    padding-bottom: 5%;
+  }
+}
+@media (max-width: 359px) {
+  .navbar-brand {
+    margin-right: 0 !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

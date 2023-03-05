@@ -8,17 +8,58 @@
 	header {
 		padding: 0%;
 	}
+	.navbar-brand{
+		margin-left: 0% !important;
+	}
 	.botonPlataforma {
-		background-color: $background-color_6;
-		color: $color_1;
 		border-radius: 0;
-		padding-left: 50%;
-		margin: 0% !important;
+		padding-left: 40%;
+		padding-right: 40%;
+		padding-bottom: 2%;
 	}
 	.bienvenida h1{
 		font-size: 200%;
 	}
+	.miSitio{
+		padding-top: 5%;
+		margin-bottom: 10%;
+	}
+	.cargaMasiva{
+		padding-bottom: 5%;
+	}
+	.blog{
+		padding-bottom: 10%;
+	}
+	.descargaApp{
+		padding-top: 10%;
+	}
+	.imagenApp{
+		padding-bottom: 5%;
+	}
+	.textoApp{
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.textoContacto{
+		padding-bottom: 10%;
+	}
+	.imagenApp{
+		padding-top: 10%;
+	}
+	.textoLamentable{
+		padding-bottom: 10%;
+	}
+	.tituloPrincipal{
+		padding-top: 2.5%;
+	}
+	.imgQueEs{
+		display: none;
+	}
+	.botonesDescarga{
+		padding-bottom: 5%;
+	}
 }
+
 @media (max-width: 359px) {
 	.navbar-brand{
 		margin-right: 0 !important;

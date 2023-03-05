@@ -1,10 +1,12 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap";
+
 /* HEADER */
 header {
 	padding-left: 10%;
 	padding-right: 10%;
-	background: blue;
+	background: $color_primario;
 	text-align: center;
-	font-family: $font-family_1;
+	font-family: $fuente;
 	font-size: 700;
 }
 .navbar-toggler {
@@ -13,17 +15,54 @@ header {
 		box-shadow: none !important;
 	}
 }
-.botonPlataforma {
-	padding: 9px 25px;
-	background-color: $background-color_1;
-	color: $color_1;
-	border: none;
-	border-radius: 50px;
-	font-family: $font-family_1;
-	font-weight: 700;
+
+/* FOOTER */
+footer {
+	background-color: $color_footer;
 	text-decoration: none;
-	&:hover {
-		background-color: $background-color_2;
-		transition: all ease 0.3s;
+	color: $color_secundario;
+	padding-top: 2.5%;
+	padding-bottom: 0.5%;
+	font-family: $fuente;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	padding: 2, 5% 2, 5% 20% 20%;
+}
+.left-links {
+	text-align: left;
+	flex-basis: 25%;
+	ul {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style-type: none;
+		display: block;
 	}
+	a {
+		text-decoration: none;
+		color: $color_secundario;
+	}
+}
+.logo-center {
+	text-align: center;
+	flex-basis: 50%;
+}
+.right-links {
+	text-align: right;
+	flex-basis: 25%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	display: block;
+	a {
+		text-decoration: none;
+		color: $color_secundario;
+	}
+}
+.copyright {
+	text-align: center;
+	padding-top: 0.5%;
 }

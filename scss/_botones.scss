@@ -1,0 +1,61 @@
+/* BOTÓN PLATAFORMA*/
+.botonPlataforma {
+	padding: 9px 25px;
+	background-color: $color_secundario;
+	color: $color_primario;
+	border: none;
+	border-radius: 50px;
+	font-family: $fuente;
+	font-weight: 700;
+	text-decoration: none;
+	&:hover {
+		background-color: $hover_azul;
+		transition: all ease .3s;
+	}
+}
+/* BOTÓN BLANCO */
+.botonBlanco {
+	padding: 9px 25px;
+	background-color: $color_secundario;
+	color: $color_primario;
+	border: none;
+	border-radius: 50px;
+	font-family: $fuente;
+	font-weight: 700;
+	text-decoration: none;
+	&:hover {
+		background-color: $hover_azul;
+		transition: all ease .3s;
+	}
+}
+/* BOTÓN AZUL */
+.botonAzul {
+	padding: 9px 25px;
+	background-color: $color_primario;
+	color: $color_secundario;
+	border: none;
+	border-radius: 50px;
+	font-family: $fuente;
+	font-weight: 700;
+	text-decoration: none;
+	&:hover {
+		background-color: $hover_blanco;
+		transition: all ease .3s;
+	}
+}
+/* REDES SOCIALES */
+.instagram{
+	color: #fd5949;
+	padding-right: 10%;
+}
+.facebook{
+	color: rgb(66 103 178);
+}
+.twitter{
+	color: rgb(29 161 242);
+	padding-left: 10%;
+}
+.mail{
+	color: $color_terciario;
+	padding-left: 10%;
+}
