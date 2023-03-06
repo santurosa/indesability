@@ -88,12 +88,6 @@
 	font-weight: 500;
 	font-size: 250%;
 }
-.tituloQueEsBlanco {
-	color: $color_secundario;
-	font-family: $fuente;
-	font-weight: 500;
-	font-size: 250%;
-}
 
 .textoQueEs {
 	text-align: center;
@@ -103,6 +97,16 @@
 	font-family: $fuente;
 }
 
+.tituloQueEsAzul {
+	display: grid;
+	place-items: center;
+	text-align: center;
+	color: $color_secundario;
+	font-family: $fuente;
+	font-weight: 700;
+	font-size: 250%;
+}
+
 .textoQueEsAzul {
 	display: grid;
 	place-items: center;
@@ -110,7 +114,12 @@
 	color: $color_secundario;
 	font-family: $fuente;
 }
-
+.descargaYa{
+	color: $color_primario;
+	font-family: $fuente;
+	font-weight: 500;
+	padding-bottom: 2.5%;
+}
 /* blog.html */
 .portadaBlog {
 	background-image: url(../img/la-arquitectura-1.jpg);
@@ -141,7 +150,16 @@
 		font-size: 250%;
 	}
 }
-
+/* sumate.html */
+.iniciativa{
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+	color: $color_primario;
+	font-family: $fuente;
+	font-size: 250%;
+	font-weight: 700;
+}
 /* plataforma.html */
 .probaPlataforma {
 	background-image: url(../img/personas-con-discapacidad.png);

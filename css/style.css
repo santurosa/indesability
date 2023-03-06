@@ -328,13 +328,6 @@ footer {
   font-size: 250%;
 }
 
-.tituloQueEsBlanco {
-  color: #fff;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 500;
-  font-size: 250%;
-}
-
 .textoQueEs {
   text-align: center;
   display: grid;
@@ -343,12 +336,29 @@ footer {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.tituloQueEsAzul {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 250%;
+}
+
 .textoQueEsAzul {
   display: grid;
   place-items: center;
   text-align: center;
   color: #fff;
   font-family: "Noto Sans JP", sans-serif;
+}
+
+.descargaYa {
+  color: blue;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  padding-bottom: 2.5%;
 }
 
 /* blog.html */
@@ -378,6 +388,17 @@ footer {
   font-family: "Noto Sans JP", sans-serif;
   padding-bottom: 2%;
   font-size: 250%;
+}
+
+/* sumate.html */
+.iniciativa {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  text-align: center;
+  color: blue;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 250%;
+  font-weight: 700;
 }
 
 /* plataforma.html */
